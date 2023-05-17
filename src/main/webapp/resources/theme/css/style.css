@@ -1,0 +1,117 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../image/Fundo.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.box{
+   position: absolute;
+   top: 50%;
+   left: 42%;
+   transform: translate(-50%,-50%);
+   background-color: azure;
+   padding: 15px;
+   border-radius: 15px;
+   width: 27%;
+   color: rgb(8, 8, 8);
+}
+.box2{
+    border: 8px solid rgb(40, 215, 238) ;
+}
+fieldset{
+    border: 5px solid rgb(40, 215, 238) ;
+}
+legend{
+    font-size: 35px ;
+    border: 1px solid rgb(40, 215, 238);
+    padding: 10px;
+    text-align: center;
+    background-color: rgb(40, 215, 238);
+    border-radius: 8px;
+}
+.inputbox{
+    position: relative;
+}
+.inputUser{
+    font-size: 20px;
+    width: 98%;
+}
+.inputUser2{
+    font-size: 30px;
+    width: 98%;
+}
+.labelinput{
+    margin-left: 10px;
+    margin-top: 5px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.labelinput2{
+    margin-left: 10px;
+    margin-top: 10px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    pointer-events: none;
+    transition: .5s;
+}
+.inputUser:focus ~ .labelinput,
+.inputUser:valid ~ .labelinput{
+    top: -20px;
+    font-size: 12px;
+}
+.inputUser2:focus ~ .labelinput2,
+.inputUser2:valid ~ .labelinput2{
+    top: -32px;
+    font-size: 20px;
+}
+
+#data_nascimento{
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    outline: none;
+    background-color: rgb(226, 215, 202);
+    font-size: 18px;
+}
+#submit{
+    width: 40%;
+    padding: 10px;
+    color: white;
+    font-size: 15px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#submit2{
+    width: 40%;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+#submit3{
+    width: 99%;
+    padding: 10px;
+    color: black;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+h3{
+    font-size: 25px;
+    border: 2px solid black;
+}
+
